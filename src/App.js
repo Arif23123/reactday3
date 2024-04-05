@@ -1,30 +1,37 @@
+
+      
 import logo from './logo.svg';
+
 import './App.css';
-import { Login } from './components/Login';
-import Registration from './components/Registration';
-import { Typography } from '@mui/material';
-// import Navbarfile from './components/Navbarfile';
+
+import ViewEmployee from './Component/ViewEmployee'
+import AddEmployee from './Component/AddEmployee'
+import Navbarr from './Component/Navbarr'
+
+
 import { Route, Routes } from 'react-router-dom';
-import Navbarfile from './components/Navbarfile';
-import Statebasics from './components/Statebasics';
-import Counter from './components/Counter';
-import UseE from './components/UseE';
-import Veiwdata from './components/Veiwdata';
 
 function App() {
-  return (
-    <div className="App">
-       {/*<Navbarfile/>
-      <Routes>
-        <Route path='/' element={<Login/>}/>
-          <Route path='/signup' element={<Registration/>}/>
-  </Routes>*/}
-      {/* <Statebasics/> */}
-     {/*} <Counter/>
-      <UseE/>*/}
-      <Veiwdata/>
-    </div>
-  );
+
+ return (
+
+   <div className="App">
+  
+    <Navbarr/>
+
+   {/* <Routes>
+
+     <Route path='/' element={<ViewEmployee/>}/>
+
+     <Route path='/add' element={<AddEmployee/>} />
+
+   </Routes> */}
+
+   </div>
+
+ );
+
 }
 
 export default App;
+
